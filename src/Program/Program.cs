@@ -32,6 +32,9 @@ namespace Full_GRASP_And_SOLID
             printer = new FilePrinter();
             printer.PrintRecipe(recipe);
 
+            //¿Qué patrón o principio usan para asignar esta responsabilidad? 
+            // PrintRecipe es polimorfica
+
 
             /* AllInOnePrinter printer = new AllInOnePrinter();
             printer.PrintRecipe(recipe, Destination.Console);
